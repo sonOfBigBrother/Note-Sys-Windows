@@ -6,3 +6,10 @@
 - 在[shell]下右键——新建项[open in Git]，其值为“Git Bash Here”——右键菜单显示名称。
 - 在[shell]下右键——新建字符串值[Icon],设定其值为[directory-to-git\mingw64\share\git\git-for-windows.ico]——右键菜单显示图标
 - 在[open in Git]下右键——新建项[command]，其值为[directory-to-git\git-bash.exe]
+
+### 电脑运行ss代理的情况下，cmd命令窗口无法访问google服务器
+Solution：在命令窗口中输入
+> set http_proxy 127.0.0.1:1080
+> set https_proxy 127.0.0.1:1080
+
+即可正常访问google服务器
