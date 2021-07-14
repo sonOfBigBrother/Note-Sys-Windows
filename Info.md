@@ -7,3 +7,5 @@
 	- n：直接使用IP地址，不通过域名服务器
 	- o：显示计时器
 - sysdm.cpl：打开系统属性窗口，个人一般喜欢通过该命令在“高级”选项下设置环境变量。
+- netsh wlan show profiles：查看所有WLAN连接的配置文件名列表
+  - netsh wlan show profile "Wifi名称" key=clear：查看WiFi密码
